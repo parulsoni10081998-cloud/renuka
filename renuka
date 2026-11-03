@@ -5,11 +5,11 @@
        default-locale="en-US">
 
   <info>
-    <title>Springer Author Date Custom Style</title>
-    <id>http://www.zotero.org/styles/springer-author-date-custom</id>
-    <link href="http://www.zotero.org/styles/springer-author-date-custom" rel="self"/>
+    <title>Custom Gamelin Reference Style</title>
+    <id>http://www.zotero.org/styles/custom-gamelin-reference</id>
+    <link href="http://www.zotero.org/styles/custom-gamelin-reference" rel="self"/>
     <author>
-      <name>Custom CSL Style</name>
+      <name>Custom CSL</name>
     </author>
     <category citation-format="author-date"/>
     <updated>2026-11-03T00:00:00+00:00</updated>
@@ -33,10 +33,10 @@
   </macro>
 
   <citation>
-    <layout prefix="(" suffix=")" delimiter="; ">
+    <layout prefix="[" suffix="]" delimiter="; ">
       <group delimiter=" ">
         <names variable="author">
-          <name form="short" and="symbol"/>
+          <name form="short" and="text"/>
         </names>
         <text macro="year"/>
       </group>
@@ -57,7 +57,7 @@
           <text macro="year"/>
         </group>
         <text variable="title" suffix="."/>
-        <text variable="container-title" form="short"/>
+        <text variable="container-title" form="short" font-style="italic"/>
         <group delimiter=":">
           <text variable="volume"/>
           <text variable="page"/>
